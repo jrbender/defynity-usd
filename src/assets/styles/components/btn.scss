@@ -1,9 +1,9 @@
 .btn {
   width: 100%;
-  background: var(--white);
+  background: var(--darkerBlack);
   border-radius: 10px;
-  border: 1px solid transparent;
-  color: var(--black);
+  border: 1.6px solid transparent;
+  color:var(--white);
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
@@ -18,16 +18,18 @@
   cursor: pointer;
 
   &:hover {
-    background: rgba(255, 255, 255,0.85);
+    //background: rgba(255, 255, 255,0.85);
+    opacity: 0.85;
   }
 
   &:active {
-    background: rgba(255, 255, 255,0.8);
+    background: var(--darkerBlack);
   }
 
   &:disabled {
     cursor: not-allowed;
-    background: rgba(255, 255, 255,0.55);
+    background: var(--white);//rgba(255, 255, 255,0.5);
+    color:var(--darkerblack);
   }
 }
 

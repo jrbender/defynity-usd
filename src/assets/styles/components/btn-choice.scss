@@ -1,0 +1,40 @@
+.btn-choice {
+  width:65%;
+  font-size: 22px;
+  background:none;
+  color:white;
+  cursor:pointer;
+  //border: 2px solid;
+  //border-color: #2d2d2d;
+  border-color:transparent;
+  border-radius: 10px;
+  line-height: 35px;
+  margin-top:-15px;
+  margin-bottom:15px;
+  
+
+  &:hover {
+    background: #2d2d2d;
+  }
+  
+}
+
+//row to hold the columns
+
+.btn-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn-column1 {
+  float: left;
+  width: 50%;
+  text-align:left;
+}
+
+.btn-column2 {
+  float: left;
+  width: 50%;
+  text-align: right;
+}

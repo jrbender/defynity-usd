@@ -7,14 +7,13 @@ $k-minilaptop: 976 / 1920;
 $k-tablet: 768 / 1920;
 $k-phone: 545 / 1920;
 main {
-    background: #2D2D2D;
+    background: rgba(0, 0, 0, 0);
     color: #fff;
 }
 .container {
     width: auto;
     max-width: 680px;
     padding: 0 20px;
-    
 }
 
 .footer a {

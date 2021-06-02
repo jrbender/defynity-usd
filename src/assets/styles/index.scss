@@ -10,6 +10,7 @@
 @import './components/input.scss';
 @import './components/terms.scss';
 @import './components/btn.scss';
+@import './components/btn-choice.scss';
 @import './components/modal.scss';
 @import './components/infoModal.scss';
 @import './components/walletModal.scss';
@@ -28,10 +29,14 @@ html, body {
   min-width: 320px;
 }
 
+
 body {
-  background: var(--darkerBlack);
+  //background-image:linear-gradient(to top, #008BCF 95%, #FFFFFF);
+  background-image:linear-gradient(to top, #000000, #008BCF 85% 95%, #FFFFFF);
+  background-size: 100%;
   min-width: 100%;
   min-height: 100%;
+  backdrop-filter: blur(200px);
 }
 
 ul {
@@ -44,7 +49,8 @@ li {
 }
 
 .main {
-  margin-bottom: 120px;
+  /*margin-bottom: 120px;*/
+  padding-bottom:8em;
 }
 
 .a-container {
@@ -64,6 +70,7 @@ li {
   height: 2px;
   width: 100%;
   background: rgba(196, 196, 196, 0.5);
+  margin-bottom:10px;
 }
 
 .Toastify__toast-container {
@@ -170,7 +177,8 @@ li {
 }
 
 .switch-site-button {
-    background: #610BFC;
+    //background: #D17850;
+    background:#008BCF;
     width: 200px;
     margin: 0 auto;
     margin-top: 20px;
