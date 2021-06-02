@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import Header from '../../components/Header/Header';
 import PurchaseForm from './components/PurchaseForm/PurchaseForm';
 import RedeemForm from './components/RedeemForm/RedeemForm';
+import BankForm from './components/BankForm/BankForm';
 import './Reservecoin.scss';
 
 const Reservecoin = () => {
@@ -25,19 +26,14 @@ const Reservecoin = () => {
                 </section>
 
                 <div className="top-section">
-                    <h2 className="top-section__title">
-                        Purchase{' '}
-                        <span className="top-section__title--ampersand">
-                            & Redeem <span className="top-section__title--colored">SigmaRSV</span>
-                        </span>
-                    </h2>
                     <p className="top-section__paragraph">
-                        Provide liquidity and earn premiums upon redemption
+                        Provide liquidity and earn premiums upon redemption.
                     </p>
                 </div>
                 <div className="reservecoin-cards">
                     <PurchaseForm />
                     <RedeemForm />
+                    <BankForm />
                 </div>
 
                 <footer className="footer mt-auto py-3">

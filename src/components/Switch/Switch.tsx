@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as ArrowRightIcon } from '../../assets/images/Icons/ArrowRightIcon.svg';
+import { ReactComponent as ArrowDualIcon } from '../../assets/images/Icons/double-arrow-svgrepo-com.svg';
 
 interface Props {
     leftSide: string;
@@ -11,7 +11,7 @@ const Switch = ({ leftSide, rightSide }: Props) => {
         <div className="switch-section">
             <div className="switch-section__text switch-section__text--left">{leftSide}</div>
             <div className="switch-section__icon">
-                <ArrowRightIcon />
+                <ArrowDualIcon />
             </div>
             <div className="switch-section__text switch-section__text--right">{rightSide}</div>
         </div>

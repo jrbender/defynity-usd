@@ -1,9 +1,11 @@
 .input {
     .input-group {
         display: flex;
+        
         input {
             background: var(--darkerBlack);
-            border-radius: 7.5px;
+            border-top-left-radius: 7.5px;
+            border-bottom-left-radius: 7.5px;
             color: var(--white);
             font-family: Inter;
             font-style: normal;
@@ -15,6 +17,26 @@
             border: 0;
             width: 100%;
             outline: none;
+        }
+
+        .bankCoin{
+            color:#757575;
+            background:var(--darkerBlack);
+            border-top-right-radius: 7.5px;
+            border-bottom-right-radius: 7.5px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            padding-top:11px;
+            padding-right:14px;
+
+            select {
+                color:#757575;
+                background:var(--darkerBlack);
+                border:none;
+                cursor:pointer;
+            }
         }
     }
     .input__subtext {
@@ -28,7 +50,56 @@
         margin-top: 14px;
         color: var(--white);
         &.error {
-            color: red;
+            color:red;
+        }
+    }
+}
+
+.input-other {
+    .input-group {
+        display: flex;
+        input {
+            background: var(--darkerBlack);
+            border-top-left-radius: 7.5px;
+            border-bottom-left-radius: 7.5px;
+            color: var(--white);
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 26px;
+            padding-left: 14px;
+            height: 45px;
+            border: 0;
+            width: 100%;
+            outline: none;
+        }
+
+        .outCoin{
+            color:#757575;
+            background:var(--darkerBlack);
+            border-top-right-radius: 7.5px;
+            border-bottom-right-radius: 7.5px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            padding-top:12px;
+            padding-right:14px;
+        }
+    }
+    .input__subtext {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        margin-top: 14px;
+        color: var(--white);
+        &.error {
+            color:red;
         }
     }
 }
@@ -37,7 +108,23 @@
     .input {
         .input-group {
             input {
-                border-radius: 5px;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                height: 50px;
+                font-size: 22px;
+                line-height: 22px;
+            }
+        }
+        .input__subtext {
+            font-size: 13px;
+            line-height: 16px;
+        }
+    }
+    .input-other {
+        .input-group {
+            input {
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
                 height: 50px;
                 font-size: 22px;
                 line-height: 22px;
@@ -54,7 +141,24 @@
     .input {
         .input-group {
             input {
-                border-radius: 5px;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                height: 30px;
+                padding-left: 6px;
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+        .input__subtext {
+            font-size: 8px;
+            line-height: 8px;
+        }
+    }
+    .input-other {
+        .input-group {
+            input {
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
                 height: 30px;
                 padding-left: 6px;
                 font-size: 18px;
