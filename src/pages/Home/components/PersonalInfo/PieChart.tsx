@@ -12,8 +12,8 @@ export enum COLORSIDS {
     ERGO = 'Ergo',
 }
 export const COLORS = {
-    [COLORSIDS.SIGMAUSD]: '#2F5EF6',
-    [COLORSIDS.SIGMARSV]: '#0bfcae',
+    [COLORSIDS.SIGMAUSD]: '#e7e18a',
+    [COLORSIDS.SIGMARSV]: '#008BCF',
     [COLORSIDS.ERGO]: '#ffffff',
 };
 

@@ -13,6 +13,7 @@
             font-size: 20px;
             line-height: 26px;
             padding-left: 14px;
+            padding-top:3px;
             height: 45px;
             border: 0;
             width: 100%;
@@ -69,6 +70,7 @@
             font-size: 20px;
             line-height: 26px;
             padding-left: 14px;
+            padding-top:3px;
             height: 45px;
             border: 0;
             width: 100%;
@@ -114,6 +116,9 @@
                 font-size: 22px;
                 line-height: 22px;
             }
+            .bankCoin {
+                padding-top:13px;
+            }
         }
         .input__subtext {
             font-size: 13px;
@@ -128,6 +133,9 @@
                 height: 50px;
                 font-size: 22px;
                 line-height: 22px;
+            }
+            .outCoin {
+                padding-top:15px;
             }
         }
         .input__subtext {
@@ -150,9 +158,10 @@
             }
         }
         .input__subtext {
-            font-size: 8px;
+            font-size: 11px;
             line-height: 8px;
         }
+        
     }
     .input-other {
         .input-group {
@@ -168,6 +177,27 @@
         .input__subtext {
             font-size: 8px;
             line-height: 8px;
+        }
+        
+    }
+}
+@media (max-width: 767px) {
+    .input {
+        .input-group {
+            .bankCoin {
+                line-height:22px;
+                font-size:16px;
+                padding-top:5px;
+            }
+        }
+    }
+    .input-other {
+        .input-group {
+            .outCoin {
+                line-height:2px;
+                font-size:16px;
+                margin-top:0px;
+            }
         }
     }
 }

@@ -45,10 +45,7 @@ const Home = () => {
                             <span>Dashboard</span>
                         </NavLink>
                         <NavLink exact to="/stablecoin">
-                            <span>StableCoin</span>
-                        </NavLink>
-                        <NavLink exact to="/reservecoin">
-                            <span>ReserveCoin</span>
+                            <span>Fyn Finance</span>
                         </NavLink>
                     </nav>
                 </section>
@@ -67,14 +64,16 @@ const Home = () => {
                         Experience the latest advancements in Stablecoins by buying and selling
                         SigUSD and SigRSV using Ergo and smart contracts.
                         <br />
-                        <br /> This project is based on the{' '}
+                        <br /> Powered by Fyn Finance, 
+                        <br /> an {' '}
                         <a
                             target="_blank"
                             href="https://ergoplatform.org/en/blog/2021-02-05-building-ergo-how-the-ageusd-stablecoin-works/"
                             rel="noreferrer noopener"
                         >
-                            AgeUSD Protocol
+                            AgeUSD Protocol Head.
                         </a>
+                        
                     </div>
                 </section>
 
@@ -97,7 +96,7 @@ const Home = () => {
                             ergonaut.space
                         </a>{' '}
                         <a>|</a>
-                        <a href="https://github.com/anon-real/sigma-usd" target="_blank">
+                        <a href="https://github.com/jrbender/fyn-finance" target="_blank">
                             {' '}
                             github
                         </a>

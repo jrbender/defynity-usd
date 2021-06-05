@@ -32,11 +32,22 @@ html, body {
 
 body {
   //background-image:linear-gradient(to top, #008BCF 95%, #FFFFFF);
-  background-image:linear-gradient(to top, #000000, #008BCF 85% 95%, #FFFFFF);
-  background-size: 100%;
+  //background-image:linear-gradient(to top, #000000 15%, #075383 85% 95%, #FFFFFF);
+  //background-image:linear-gradient(to top, #000000 5%, #0e78b9 95%, #FFFFFF);
+  //background: linear-gradient(270deg, #0b2d5e, #000000, #4b1b1b, #000000); //#000000, #037630,
+  //background: linear-gradient(270deg, #5a68a5, #000000, #a55858, #000000);
+  background: linear-gradient(270deg, #21263b, #000000, #0c160f, #000000);
+
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationBG 25s ease infinite;
+  -moz-animation: AnimationBG 25s ease infinite;
+  animation: AnimationBG 25s ease infinite;
+
+  //background-size: 100%;
   min-width: 100%;
   min-height: 100%;
-  backdrop-filter: blur(200px);
+  //backdrop-filter: blur(200px);
 }
 
 ul {
@@ -181,7 +192,7 @@ li {
     background:#008BCF;
     width: 200px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 8px;
     border-radius: 5px;
 
@@ -189,4 +200,20 @@ li {
         transition: none !important;
         background: none !important;
     }
+}
+
+@-webkit-keyframes AnimationBG {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationBG {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationBG {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }

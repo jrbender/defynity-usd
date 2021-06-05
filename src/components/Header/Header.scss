@@ -65,20 +65,21 @@ header {
     & .company-name {
         font-family: IBM Plex Mono;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 32px;
+        //padding-top: 1.5em;
         letter-spacing: .075rem;
-        max-width: 216px;
+        max-width: 250px;
         text-decoration: none;
         color: white;
 
         @media (max-width: $width-laptop) {
-            font-size: 40px * $k-laptop;
-            max-width: 216px * $k-laptop;
+            font-size: 32px * $k-laptop;
+            max-width: 250px * $k-laptop;
         }
 
         @media (max-width: $width-tablet) {
-            font-size: 40px * $k-tablet;
-            max-width: 216px * $k-tablet;
+            font-size: 32px * $k-tablet;
+            max-width: 250px * $k-tablet;
         }
 
         @media (max-width: $width-phone) {
@@ -86,11 +87,6 @@ header {
             margin-right: 16px;
         }
 
-        & .company-name__br {
-            @media (min-width: $width-phone) {
-                display: none;
-            }
-        }
     }
 
     & .navigation {

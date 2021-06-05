@@ -35,9 +35,7 @@ export class HeaderComponent extends Component<any, any> {
             <header className="header-container">
                 <div>
                     <a className="company-name" href="/">
-                        Sigma
-                        <br className="company-name__br" />
-                        USD
+                        Fyn Finance
                     </a>
 
                     <nav className="navigation">
@@ -45,10 +43,7 @@ export class HeaderComponent extends Component<any, any> {
                             Dashboard
                         </NavLink>
                         <NavLink to="/stablecoin" className="navigation__item">
-                            StableCoin
-                        </NavLink>
-                        <NavLink to="/reservecoin" className="navigation__item">
-                            ReserveCoin
+                            Fyn Bank
                         </NavLink>
                     </nav>
 

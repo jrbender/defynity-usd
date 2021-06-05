@@ -2,21 +2,23 @@
 
 .stablecoin-cards {
   display: grid;
-  grid-template-columns: repeat(2, minmax(355px, 620px));
-  grid-gap: 30px;
+  grid-template-columns: repeat(1, minmax(355px, 620px));
+  //grid-gap: 30px;
+  justify-content:center;
 }
 
-@media (max-width: $xlBreakpoint) {
+/*@media (max-width: $xlBreakpoint) {
   .stablecoin-cards {
     grid-gap: 20px;
-    grid-template-columns: repeat(2, minmax(355px, 650px));
+    grid-template-columns: repeat(1, minmax(355px, 650px));
   }
-}
+}*/
 
 @media (max-width: $lgBreakpoint) {
   .stablecoin-cards {
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    //grid-gap: 20px;
+    grid-template-columns: repeat(1, minmax(50px, 400px));
+    justify-content:center;
   }
 }
 
@@ -33,7 +35,8 @@ input[type=number] {
 
 
 .footer a {
-  background-image: linear-gradient(to right, rgba(247, 6, 186, 0) 50%, #2F5EF6 50%);
+  background-image: linear-gradient(to right, rgba(247, 6, 186, 0) 50%, #008BCF 50%);
+  //background-image: linear-gradient(to right, rgba(71, 117, 79, 0) 50%, #008BCF 50%);
   background-position: -0% 0;
   background-size: 200% auto;
   color: #FFF;

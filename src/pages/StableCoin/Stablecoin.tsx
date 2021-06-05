@@ -18,10 +18,7 @@ const Stablecoin = () => {
                             <span>Dashboard</span>
                         </NavLink>
                         <NavLink to="/stablecoin">
-                            <span>StableCoin</span>
-                        </NavLink>
-                        <NavLink to="/reservecoin">
-                            <span>ReserveCoin</span>
+                            <span>Fyn Bank</span>
                         </NavLink>
                     </nav>
                 </section>
@@ -29,9 +26,7 @@ const Stablecoin = () => {
                 <div className="top-section">
                     <p className="top-section__paragraph">Welcome to decentralized stability.</p>
                 </div>
-                <div className="reservecoin-cards">
-                    <PurchaseForm />
-                    <RedeemForm />
+                <div className="stablecoin-cards">
                     <BankForm />
                 </div>
                 <footer className="footer mt-auto py-3">
@@ -50,7 +45,7 @@ const Stablecoin = () => {
                             ergonaut.space
                         </a>{' '}
                         <a>|</a>
-                        <a href="https://github.com/anon-real/sigma-usd" target="_blank">
+                        <a href="https://github.com/jrbender/fyn-finance" target="_blank">
                             {' '}
                             github
                         </a>
