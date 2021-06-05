@@ -17,7 +17,7 @@ main {
 }
 
 .footer a {
-    background-image: linear-gradient(to right, rgba(247, 6, 186, 0) 50%, #008BCF 50%);
+    background-image: linear-gradient(to right, rgba(247, 6, 186, 0) 50%, var(--darkerBlack) 50%);
     background-position: -0% 0;
     background-size: 200% auto;
     color: #FFF;

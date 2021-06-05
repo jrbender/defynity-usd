@@ -31,18 +31,18 @@ html, body {
 
 
 body {
-  //background-image:linear-gradient(to top, #008BCF 95%, #FFFFFF);
-  //background-image:linear-gradient(to top, #000000 15%, #075383 85% 95%, #FFFFFF);
+  //background-image:linear-gradient(to top, #008BCF 95%, #FFFFFF;
+  background-image:linear-gradient(to top, #000000, #008BCF 85% 97%, #FFFFFF);
   //background-image:linear-gradient(to top, #000000 5%, #0e78b9 95%, #FFFFFF);
   //background: linear-gradient(270deg, #0b2d5e, #000000, #4b1b1b, #000000); //#000000, #037630,
   //background: linear-gradient(270deg, #5a68a5, #000000, #a55858, #000000);
-  background: linear-gradient(270deg, #21263b, #000000, #0c160f, #000000);
+  //background: linear-gradient(270deg, #21263b, #000000, #0c160f, #000000);
 
-  background-size: 600% 600%;
+  background-size: 100%;
 
-  -webkit-animation: AnimationBG 25s ease infinite;
-  -moz-animation: AnimationBG 25s ease infinite;
-  animation: AnimationBG 25s ease infinite;
+  //-webkit-animation: AnimationBG 25s ease infinite;
+  //-moz-animation: AnimationBG 25s ease infinite;
+  //animation: AnimationBG 25s ease infinite;
 
   //background-size: 100%;
   min-width: 100%;
@@ -189,7 +189,7 @@ li {
 
 .switch-site-button {
     //background: #D17850;
-    background:#008BCF;
+    background:var(--darkerBlack);
     width: 200px;
     margin: 0 auto;
     margin-top: 40px;
@@ -202,7 +202,7 @@ li {
     }
 }
 
-@-webkit-keyframes AnimationBG {
+/*@-webkit-keyframes AnimationBG {
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
@@ -216,4 +216,4 @@ li {
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
-}
+}*/
