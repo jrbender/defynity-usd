@@ -1,8 +1,10 @@
-# SigmaUSD UI
-SigmaUSD is an instance of AgeUSD protocol for Ergo blockchain.
+# Fyn Finance UI
+Fyn Finance is a head for interacting with headless dapps built on the Ergo blockchain.
 
-Please note that the UI itself is not the instance; it only interacts with the deployed contracts on Ergo blockchain
+Currently, the SigmaUSD instance of the AgeUSD protocol is supported. Please note that the UI itself is not the instance; it only interacts with the deployed contracts on Ergo blockchain
 which has been deployed by other anonymous community members not connected with Emurgo or EF.
+
+There are plans to support more stablecoins and other headless dapps in the future.
 
 ## install
 ```bash
