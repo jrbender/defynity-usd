@@ -45,7 +45,7 @@ const Home = () => {
                             <span>Dashboard</span>
                         </NavLink>
                         <NavLink exact to="/stablecoin">
-                            <span>Fyn Finance</span>
+                            <span>The Fyn Head</span>
                         </NavLink>
                     </nav>
                 </section>

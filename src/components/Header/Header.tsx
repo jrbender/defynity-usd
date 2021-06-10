@@ -43,7 +43,7 @@ export class HeaderComponent extends Component<any, any> {
                             Dashboard
                         </NavLink>
                         <NavLink to="/stablecoin" className="navigation__item">
-                            Fyn Bank
+                            The Fyn Head
                         </NavLink>
                     </nav>
 

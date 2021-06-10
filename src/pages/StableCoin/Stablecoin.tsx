@@ -18,7 +18,7 @@ const Stablecoin = () => {
                             <span>Dashboard</span>
                         </NavLink>
                         <NavLink to="/stablecoin">
-                            <span>Fyn Bank</span>
+                            <span>The Fyn Head</span>
                         </NavLink>
                     </nav>
                 </section>

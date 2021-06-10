@@ -47,8 +47,7 @@ const WalletModal = ({ open, onClose }: Props) => {
 
                             <p className="wallet-modal__paragraph">
 
-                             <br></br>Your funds will be safe using smart contracts
-                                that prevent the service from cheating! Transactions may fail due to heavy load during the launch. Try again! <br></br>
+                             <br></br>Transactions sometimes fail due to heavy load during the launch. Try again! <br></br>
                             </p>
                             <div className="wallet-modal__input-group">
                                 <label
@@ -74,8 +73,7 @@ const WalletModal = ({ open, onClose }: Props) => {
 
                             <p className="wallet-modal__paragraph">
                             <br></br>
-                            This option uses our assembler service, an intermediate step
-                                that you can find out more about{' '}
+                            This option uses our assembler service, an intermediate step that you can find <br></br>out more about{' '}
                             <a
                                 href="https://www.ergoforum.org/t/tx-assembler-service-bypassing-node-requirement-for-dapps/443"
                                 target="_blank"
